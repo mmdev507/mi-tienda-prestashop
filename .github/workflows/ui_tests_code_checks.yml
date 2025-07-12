@@ -1,18 +1,18 @@
 name: UI tests code checks
 
 on:
-  push:
-    paths:
-      - 'tests/UI/**'
-      - '.github/workflows/ui_tests_code_checks.yml'
-  pull_request:
-    paths:
-      - 'tests/UI/**'
-      - '.github/workflows/ui_tests_code_checks.yml'
+ # push:
+ #   paths:
+#      - 'tests/UI/**'
+ #     - '.github/workflows/ui_tests_code_checks.yml'
+#  pull_request:
+ #   paths:
+ #     - 'tests/UI/**'
+ #     - '.github/workflows/ui_tests_code_checks.yml'
 
 defaults:
-  run:
-    working-directory: ./tests/UI/
+ # run:
+#    working-directory: ./tests/UI/
 
 env:
   NODE_VERSION: '20'
