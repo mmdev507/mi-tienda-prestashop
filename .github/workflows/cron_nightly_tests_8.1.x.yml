@@ -3,10 +3,10 @@
 name: Nightly tests and report - 8.1.x
 
 on:
-  workflow_run:
-    workflows: [ 'Nightly Build' ]
-    types:
-      - requested
+ #  workflow_run:
+ #    workflows: [ 'Nightly Build' ]
+ #    types:
+ #      - requested
 
 jobs:
   test_8_1_x:

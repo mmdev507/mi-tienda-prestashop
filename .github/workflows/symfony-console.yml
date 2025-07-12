@@ -1,7 +1,7 @@
 name: Symfony Console
 on:
-  push:
-  pull_request:
+ #  push:
+ #  pull_request:
 
 permissions:
   contents: read

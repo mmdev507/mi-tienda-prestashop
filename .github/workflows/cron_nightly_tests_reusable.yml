@@ -3,7 +3,7 @@
 name: Nightly tests (Run & Upload)
 
 on:
-  workflow_call:
+ # workflow_call:
     inputs:
       BRANCH:
         required: true

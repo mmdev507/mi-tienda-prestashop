@@ -3,9 +3,9 @@
 name: Nightly tests (Report)
 
 on:
-  schedule:
-    - cron: '0 5 * * *'
-  workflow_dispatch:
+ # schedule:
+ #   - cron: '0 5 * * *'
+#  workflow_dispatch:
 
 jobs:
   # Add pushed reports to GCP on nightly

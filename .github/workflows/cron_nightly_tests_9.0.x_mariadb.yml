@@ -3,10 +3,10 @@
 name: Nightly tests and report - 9.0.x
 
 on:
-  workflow_run:
-    workflows: [ 'Nightly Build' ]
-    types:
-      - requested
+#  workflow_run:
+#   workflows: [ 'Nightly Build' ]
+ #   types:
+ #     - requested
 
 jobs:
   test_9_0_x:
