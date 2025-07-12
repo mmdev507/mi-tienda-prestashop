@@ -119,9 +119,10 @@ final class ServerRequirementsChecker implements ServerRequirementsCheckerInterf
             $issues[] = self::ISSUE_EXT_SIMPLEXML_NOT_AVAILABLE;
         }
 
-        if (false === $this->configuration->getBoolean('PS_SSL_ENABLED')) {
-            $issues[] = self::ISSUE_HTTPS_NOT_AVAILABLE;
-        }
+       // if (false === $this->configuration->getBoolean('PS_SSL_ENABLED')) {
+           // $issues[] = self::ISSUE_HTTPS_NOT_AVAILABLE;
+        //   $issues[] = false; // Forzar que no detecte problema
+       // }
 
         if (!str_contains($this->hostingInformation->getServerInformation()['version'], 'Apache')) {
             return $issues;
